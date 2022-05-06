@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    color: #b1b1b1;
+    font-size: 15px;
+    background-color: #fafafa;
+}
+
+a {
+    font-weight: 500;
+    color: #2e343b;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header {
+    padding-top: 56px;
+    background-image: url(../img/top-bg.png);
+}
+
+.header__inner {
+    background-color: #fff;
+}
+
+.header-menu-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    align-items: center;
+    border-bottom: 2px solid #f6f6f6;
+}
+
+.header-menu-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.header__EmailLang {
+    border-left: 2px solid #f6f6f6;
+    display: flex;
+    align-items: center;
+    height: 96px;
+    padding: 0 120px 0 80px;
+}
+
+.header__EmailLang img {
+    padding: 0 15px;
+}
+
+.email {
+    padding-right: 80px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list li {
+    padding: 16px 46px;
+}
+
+.menu__list a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header_socialNet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_socialNet img {
+    padding-left: 8px;
+
+}
+
+.top {
+    padding: 170px 0 234px;
+}
+
+
+.top_inner {
+    width: 570px;
+    height: 326px;
+}
+
+.top-info {
+    color: #fff;
+}
+
+.top-info__title {
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 58px;
+
+}
+
+.top-info__line {
+    border-bottom: 4px solid #eb5635;
+    width: 186px;
+    padding-top: 18px;
+}
+
+.top-info__subtitle {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+}
+
+
+.top-info__descr {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 35px 0;
+}
+
+.top-info__btn {
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 30px;
+    background-color: #eb5635;
+    margin-right: 12px;
+    font-size: 21px;
+}
+
+.top-info__btn:last-child {
+    color: #000;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.game {
+    background-image: url(../img/game-bg.png);
+    padding: 110px 0 174px;
+}
+
+.game_inner {
+    width: 523px;
+    height: 326px;
+
+}
+
+.game-info {
+    color: #4f4f4f;
+}
+
+.game-info__title {
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 58px;
+    color: #686868;
+}
+
+.game-info__subtitle {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+}
+
+.game-info__descr {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 35px 0;
+    color: #4f4f4f;
+}
+
+.game-info__btn {
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 30px;
+    background-color: #eb5635;
+    margin-right: 12px;
+    font-size: 21px;
+}
+
+.game-info__btn:last-child {
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 12px 35px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.content {
+    padding: 60px 0;
+
+}
+
+.content__items {
+    display: flex;
+}
+
+.content-item:nth-child(1) {
+    margin-right: 13px;
+    width: 505px;
+    height: 487px;
+    background-image: url(../img/cont-item1.png);
+
+}
+
+.content-item:nth-child(2) {
+    height: 487px;
+    width: 245px;
+    position: relative;
+}
+
+.content-item:nth-child(2) img {
+    height: 245px;
+    width: 245px;
+    position: relative;
+}
+
+.content-item:last-child {
+    margin-left: 13px;
+
+    width: 505px;
+    height: 487px;
+    background-image: url(../img/cont-item3.png);
+}
+
+.content__item-info {
+    width: 254px;
+    height: 487px;
+    background-color: rgba(255, 255, 255, .6);
+    margin-left: auto;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+    padding: 43px;
+
+}
+
+#qqq {
+    width: 245px;
+    height: 244px;
+    background-color: #cecece;
+    margin-left: auto;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.content-item__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #383838;
+    padding-bottom: 30px;
+
+}
+
+.content-item__descr {
+    color: #383838;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    padding-bottom: 70px;
+}
+
+.content-item__btn {
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 23px;
+    border-radius: 30px;
+    background-color: #eb5635;
+    margin-right: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.team {
+    padding: 63px 0;
+}
+
+.team__inert {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    margin-right: 48px;
+}
+
+.title-line {
+    border-bottom: 4px solid #eb5635;
+    width: 49px;
+    padding-top: 18px;
+}
+
+.decr {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.decr span {
+    color: #eb5635;
+}
+
+.team-slider {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 38px;
+    background-color: #dddddd;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+
+}
+
+
+.job-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.job__items {
+    padding: 40px 0 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-item {
+    margin-right: 20px;
+    width: 630px;
+    min-height: 215px;
+    padding: 25px 0 0 73px;
+    background-color: #fff;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+}
+
+.job-item span {
+    color: #4b4b4b;
+}
+
+.job-item__title {
+    font-size: 21px;
+    line-height: 38px;
+    color: #4b4b4b;
+}
+
+.job-item__deskr1 {
+    padding: 10px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.job-item__deskr1::before {
+    content: "";
+    background-image: url(../img/job-img1.png);
+    width: 11px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.job-item__deskr1 span {
+    position: relative;
+    padding-left: 26px;
+}
+
+.job-item__deskr1 span::before {
+    content: "";
+    background-image: url(../img/job-img2.png);
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.job-item__deskr2 {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 24px;
+}
+
+.job-item__btn {
+    padding: 5px 20px;
+    border: 1px solid #eb5635;
+    border-radius: 20px;
+    color: #eb5635;
+}
+
+.info {}
+
+.info__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    padding-bottom: 25px;
+}
+
+.info-blok {
+    height: 344px;
+    width: 413px;
+    margin-right: 25px;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.pages-text {
+    padding-left: 15px;
+    color: #4b4b4b;
+    align-items: center;
+}
+
+.pages-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+.press-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #4b4b4b;
+    padding-bottom: 20px;
+}
+
+.press-descr {
+    font-size: 15px;
+    line-height: 22px;
+    color: #b1b1b1;
+    padding-bottom: 10px;
+}
+
+.info-blok__content a {
+    color: #eb5635;
+}
+
+.tveet-text {}
+
+.footer {
+    padding-top: 67px;
+}
+
+.footer__inner {
+    background-color: #fff;
+}
+
+.footer__inner-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    align-items: center;
+    border-bottom: 2px solid #f6f6f6;
+}
+
+.footer-menu li {
+    padding: 32px 46px;
+}
+
+.footer-menu a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-menu__list {
+    display: flex;
+}
+
+.footer__inner-bottm {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
