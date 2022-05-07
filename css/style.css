@@ -419,8 +419,8 @@ a {
 }
 
 .info-blok {
-    height: 344px;
-    width: 413px;
+    min-height: 344px;
+    min-width: 413px;
     margin-right: 25px;
     padding: 25px;
     background-color: #fff;
@@ -432,7 +432,10 @@ a {
     justify-content: space-between;
     padding-bottom: 40px;
 }
-
+.pages img{
+   height: 88px;
+   width: 88px;
+}
 .pages-text {
     padding-left: 15px;
     color: #4b4b4b;
@@ -500,4 +503,3 @@ a {
     display: flex;
     justify-content: space-between;
 }
-
