@@ -1,0 +1,361 @@
+@media (max-width: 1235px) {
+    .header__EmailLang {
+        padding: 0px 30px 0 30px;
+    }
+
+    .menu__list li {
+        padding: 15px 40px;
+    }
+
+    .header-menu-top {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 1225px) {
+    .header__EmailLang {
+        padding: 0px 30px 0 20px;
+    }
+
+    .menu__list li {
+        padding: 15px 43px;
+    }
+
+    .header-menu-top {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .header__EmailLang {
+        padding: 0px 30px 0 20px;
+    }
+
+    .menu__list li {
+        padding: 15px 26px;
+    }
+
+    .header-menu-top {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__EmailLang {
+
+        padding: 0px 30px 0 20px;
+    }
+
+    .menu__list li {
+        padding: 15px 25px;
+    }
+
+    .header-menu-top {
+        padding-left: 30px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-menu-top {
+        padding-left: 30px;
+
+    }
+
+    .header-menu-bottom {
+        padding-right: 30px;
+    }
+
+    .header__EmailLang .lang,
+    .email {
+        display: none;
+    }
+
+    .header__EmailLang {
+        padding: 0px 15px 0 15px;
+    }
+
+    .menu__list {
+        display: none;
+        position: absolute;
+        top: 155px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+    }
+
+    .menu__list a {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #000;
+        background: #fff;
+    }
+
+    .menu__list li {
+        margin-left: 0;
+        padding: 0px 15px;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .header_socialNet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+    }
+    .content__items {
+        display: block;
+    }
+    .content-item:nth-child(1) {
+        margin: 20px 0;
+    }
+    .content-item:last-child {
+        margin: 20px 0;
+    }
+
+    .job__items {
+        display: block;
+    }
+    .job-item {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 25px;
+        width: auto;
+    }
+    .job-text{
+        display: block;
+    }
+    .info__inner {
+        display: block;
+    }
+    .info-blok{
+        margin-bottom: 20px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .footer-menu li {
+        padding: 32px 23px;
+    }
+    .footer__inner-top {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 770px) {
+    .logo img {
+        width: 220px;
+    }
+
+    .header {
+        padding-top: 40px;
+    }
+    .footer-menu li {
+        padding: 15px 6px;
+    }
+    .footer__inner-top {
+        padding-left: 20px;
+        justify-content: center;
+    }
+    .footer-menu a {
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 580px) {
+    .logo img {
+        width: 182px;
+    }
+
+    .header {
+        padding-top: 25px;
+    }
+
+    .header__EmailLang {
+        border: none;
+        padding: 0;
+    }
+
+    .menu__list {
+        top: 86px;
+    }
+
+    .header-menu-top {
+        height: 60px;
+    }
+    .footer-menu__list {
+        display: block;
+
+    }
+    .footer-menu a {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .footer-menu li {
+        padding: 5px 20px;
+    }
+}
+
+@media (max-width: 399px) {
+    .logo img {
+        width: 182px;
+    }
+
+    .header {
+        padding-top: 25px;
+    }
+
+    .header__inner {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-menu-bottom {
+        padding-right: 10px;
+    }
+
+    .header-menu-top {
+        padding-left: 10px;
+        height: 60px;
+    }
+
+    .header__EmailLang {
+        border: none;
+        padding: 0;
+    }
+
+    .header__Email {
+        display: none;
+    }
+
+    .header_socialNet {
+        display: none;
+    }
+
+    .top {
+        padding: 70px 0 234px;
+    }
+
+    .top-info__subtitle {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 59px;
+        display: block;
+    }
+
+    .top_inner {
+        width: 330px;
+    }
+
+    .top-info__btn {
+        font-size: 14px;
+    }
+
+
+    .top-info__btn {
+        padding: 12px 25px;
+
+    }
+
+    .top-info__btn:last-child {
+        padding: 12px 25px;
+    }
+
+    .top-info__descr {
+
+        padding: 35px 0;
+        padding-right: 15px;
+    }
+
+    .game_inner {
+        width: 330px;
+    }
+
+    .game-info__btn {
+        font-size: 14px;
+    }
+
+
+    .game-info__btn {
+        padding: 12px 25px;
+
+    }
+
+    .game-info__btn:last-child {
+        padding: 12px 25px;
+    }
+
+    .game-info__descr {
+
+        padding: 17px 0;
+        padding-right: 15px;
+    }
+
+    .menu__list {
+        top: 86px;
+    }
+
+    .content__items {
+        display: block;
+    }
+
+    .content-item:nth-child(1) {
+        width: 345px;
+        margin-bottom: 20px;
+    }
+
+    .content-item:nth-child(2) {
+        width: 345px;
+    }
+
+    .content-item:nth-child(2) img {
+        width: 345px;
+    }
+
+    .content-item:last-child {
+        margin-top: 20px;
+        width: 345px;
+        margin-left: 0;
+    }
+
+    #qqq {
+        width: 345px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .content-item__title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .content-item__descr {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .team-slider {
+        display: block;
+    }
+    .team-slider {
+        width: 346px;
+        padding: 35px 5px;
+    }
+}
+
+@media (min-width:992px) {
+    .menu__list {
+        display: flex !important;
+    }
+
+
+}

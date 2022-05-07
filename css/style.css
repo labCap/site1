@@ -25,7 +25,7 @@ a {
 
 .header {
     padding-top: 56px;
-    background-image: url(../img/top-bg.png);
+    background: url(../img/top-bg.png) no-repeat center top / cover;
 }
 
 .header__inner {
@@ -60,6 +60,16 @@ a {
 .email {
     padding-right: 80px;
 }
+.btn__menu {
+    width: 40px;
+    display: none;
+}
+
+.btn__menu div {
+    height: 5px;
+    background-color: #000;
+    margin-bottom: 5px;
+}
 
 .menu__list {
     display: flex;
@@ -91,12 +101,14 @@ a {
 
 
 .top_inner {
-    width: 570px;
+    width: 523px;
     height: 326px;
 }
 
 .top-info {
     color: #fff;
+    background-color: rgba(64, 64, 64, 0.121);
+    border-radius: 100px;
 }
 
 .top-info__title {
@@ -147,7 +159,7 @@ a {
 }
 
 .game {
-    background-image: url(../img/game-bg.png);
+    background: url(../img/game-bg.png) no-repeat center top / cover;
     padding: 110px 0 174px;
 }
 
@@ -159,13 +171,19 @@ a {
 
 .game-info {
     color: #4f4f4f;
+    background-color: rgba(255, 253, 253, 0.482);
+    border-radius: 70px;
 }
 
 .game-info__title {
     font-weight: normal;
     font-size: 42px;
     line-height: 58px;
-    color: #686868;
+}
+.game-info__title span{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 0;
 }
 
 .game-info__subtitle {
@@ -293,11 +311,14 @@ a {
     padding: 63px 0;
 }
 
-.team__inert {
-    display: flex;
-    justify-content: space-between;
-}
 
+.team-slider-box{
+    display: flex;
+
+}
+.team-box__img{
+    padding: 0 10px;
+}
 .title {
     font-weight: 700;
     font-size: 36px;
@@ -321,12 +342,13 @@ a {
 }
 
 .team-slider {
-    display: flex;
+    display: block;
+    margin: 0 auto;
+    width: 363px;
     justify-content: space-between;
-    padding: 35px 38px;
+    padding: 35px 15px;
     background-color: #dddddd;
-    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
-
+    box-shadow: 0px 21px 49px 1px rgb(41 44 61 / 15%);
 }
 
 
@@ -407,8 +429,6 @@ a {
     color: #eb5635;
 }
 
-.info {}
-
 .info__inner {
     display: flex;
     justify-content: space-between;
@@ -419,8 +439,8 @@ a {
 }
 
 .info-blok {
-    min-height: 344px;
-    min-width: 413px;
+    min-height: 370px;
+    width: 413px;
     margin-right: 25px;
     padding: 25px;
     background-color: #fff;
@@ -432,10 +452,12 @@ a {
     justify-content: space-between;
     padding-bottom: 40px;
 }
-.pages img{
-   height: 88px;
-   width: 88px;
+
+.pages img {
+    height: 88px;
+    width: 88px;
 }
+
 .pages-text {
     padding-left: 15px;
     color: #4b4b4b;
@@ -466,8 +488,6 @@ a {
 .info-blok__content a {
     color: #eb5635;
 }
-
-.tveet-text {}
 
 .footer {
     padding-top: 67px;
